@@ -1,0 +1,9 @@
+#----------------------Env Variable-------------------
+export EXCHANGE_DIR="~/nutstore/exchange"
+
+
+#----------------------source script-------------------
+source ~/.func
+source ~/.alias 
+
+

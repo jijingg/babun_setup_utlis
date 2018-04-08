@@ -1,0 +1,20 @@
+#-------------------------------------------------------------
+function addc(){
+    print "alias $1='cd  `pwd`' #`date +%Y.%m.%d,%H:%M`">>~/.alias
+    source ~/.alias
+    echo;which $1;echo;
+}
+
+function addo(){
+    print "alias $1='open  `pwd`' #`date +%Y.%m.%d,%H:%M`">>~/.alias
+    source ~/.alias
+    echo;which $1;echo;
+}
+function cp2ex(){
+    cp -rf $1 $EXCHANGE_DIR
+}
+function cpfex(){
+    cp -rf $EXCHANGE_DIR/$1 . 
+}
+#-------------------------------------------------------------
+
