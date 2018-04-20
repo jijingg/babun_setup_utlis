@@ -67,3 +67,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeWinSize=22
 "-------------------------------------------------------------------
+" Plugin autoclose setting 
+" autocmd FileType verilog        let b:AutoClosePairs_del = "`"
+" autocmd FileType systemverilog  let b:AutoClosePairs_del = "`"
+let g:AutoClosePairs_del = "`"

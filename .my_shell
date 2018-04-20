@@ -1,6 +1,6 @@
 #----------------------Env Variable-------------------
 export EXCHANGE_DIR="~/nutstore/exchange"
-
+export VIM="D:/Program/Vim/vim80"
 
 #----------------------source script-------------------
 source ~/.func

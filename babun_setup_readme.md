@@ -36,6 +36,13 @@
 
 Now type gvim in terminal you can found the look as same as open gvim.exe in widows 
 
+### 5: bcompare command cant recognize windows path 
+
+>1.  cd d:/Program/; mkdir bc4/ 
+>2.  ln -s ../../Program Files/Beyond Compare 4/BCompare.exe
+>3.  add alias bc4='cyg-wrapper.sh "D:/Program/bc4/BCompare.exe" --fork=1'  to ~/.alias 
+>3.  bc4 xx1 xx2  can automatic recognize linux path and windows path
+
 
   [1]: https://github.com/LucHermitte/Bash-scripts/blob/master/cyg-wrapper.sh
 

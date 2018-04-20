@@ -22,6 +22,9 @@ Plugin 'justinmk/vim-sneak'
 Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-expand-region'
 Plugin 'godlygeek/tabular'
+Plugin 'ervandew/supertab'
+Plugin 'triglav/vim-visual-increment'
+Plugin 'easymotion/vim-easymotion'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'

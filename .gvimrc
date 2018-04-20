@@ -1,5 +1,7 @@
 set guifont=Consolas:h11
+set encoding=utf-8
 " --------------------------------------------------------------------
+"  Maximize gvim windows when open gvim
 if has('win32')      
     au GUIEnter * simalt ~x  
 else      
