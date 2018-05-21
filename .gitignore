@@ -5,6 +5,7 @@
 !.func
 !.git
 !.gitignore
+!*todo.md
 !.gvimrc
 !.my_shell
 !.vimrc
