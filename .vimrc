@@ -4,6 +4,9 @@ set ts=4
 set ignorecase
 colorscheme desert 
 syntax on
+" set fileformats=unix
+" set fileformats=dos
+" set fileformats=mac
 "-----------------------------------------------------------"
 source ~/.vundlerc
 "-----------------------------------------------------------"
@@ -14,8 +17,8 @@ source ~/.vundlerc
 :nmap<C-tab> :tabnext<cr>
 
 imap <S-Enter> <ESC>o
-imap <a-Enter> <right>
-" imap <c-Enter> <ESC>O
+" imap <a-Enter> <right>
+imap <a-Enter> <ESC>O
 imap <c-Enter> <right>
 " imap <a-Enter> <Left>
 " imap <s-\> <Left>
@@ -48,7 +51,8 @@ set nobackup
 set noswapfile 
 "-----------------------------------------------------------"
 " file type set for unkown file  
-au BufRead,BufNewFile *.v,*.vh,*.sv,*.svh,*.svi set filetype=systemverilog 
+au BufRead,BufNewFile *.sv,*.svh,*.svi set filetype=systemverilog 
+" au BufRead,BufNewFile *.v,*.vh set filetype=verilog 
 au BufRead,BufNewFile .vundlerc set filetype=vim 
 "-----------------------------------------------------------"
 " Plugin commentary setting 
@@ -71,3 +75,4 @@ let NERDTreeWinSize=22
 " autocmd FileType verilog        let b:AutoClosePairs_del = "`"
 " autocmd FileType systemverilog  let b:AutoClosePairs_del = "`"
 let g:AutoClosePairs_del = "`"
+
