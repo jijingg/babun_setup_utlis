@@ -25,6 +25,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'ervandew/supertab'
 Plugin 'triglav/vim-visual-increment'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'PegasusWang/vim-ubuntu-pastebin'
+Plugin 'maloneguo/vvfly'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'

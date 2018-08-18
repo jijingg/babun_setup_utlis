@@ -1,32 +1,69 @@
 alias v="vim"
 alias g="gvim"
-alias nb="open --maximize ."
+alias nb="open --maximize "
 alias l="ls -lh"
-alias la="ls -lah"
+alias L="ls -lh"
 alias md="mkdir "
 alias vimrc="vim ~/.vimrc"
 alias python2="/usr/bin/python"
 alias python="/cygdrive/d/Program\ Files\ \(x86\)/Python35-32/python"
-alias bc="/cygdrive/d/Program\ Files\ \(x86\)/Beyond\ Compare\ 3/BCompare"
+alias python3="/cygdrive/d/Program\ Files\ \(x86\)/Python35-32/python"
+alias bc3="/cygdrive/d/Program\ Files\ \(x86\)/Beyond\ Compare\ 3/BCompare"
 # alias bc4="/cygdrive/d/Program\ Files/Beyond\ Compare\ 4/BCompare"
 alias sa="source ~/.alias"
-alias ga="vim ~/.alias"
-alias cddown="cd /cygdrive/e/download"
-alias python3="/cygdrive/d/Program/Python36/python "
-alias gvim='cyg-wrapper.sh "D:/Program/Vim/vim80/gvim.exe" --fork=1' #not /cygdirce/d/Program/VIM/vim80/gvim.exe
-alias bc4='cyg-wrapper.sh "D:/Program\ Files/Beyond\ Compare\ 4/BCompare.exe" --fork=1' #not /cygdirce/d/Program/...../xx.exe
-alias python2="/usr/bin/python"
-alias cdw="cd /cygdrive/e/nutstore/2017pc/lab/wcdma"
+alias ga="vim ~/.alias" 
+alias regif="python3 d:/Git/IP/EDAtools/regif/regif.py "
+alias gvim='cyg-wrapper.sh "D:/Program/Vim/vim80/gvim.exe" --fork=1' #not /cydrive/d/Program/VIM/vim80/gvim.exe
+alias bc='cyg-wrapper.sh "D:/Program/bc4/BCompare.exe" --fork=1' #not /cydrive/d/Program/...../xx.exe
+alias bc4='cyg-wrapper.sh "D:/Program/bc4/BCompare.exe" --fork=1' #not /cydrive/d/Program/...../xx.exe
 alias open="cygstart --maximize "
-alias nb="open ."
-alias opc="open /cygdrive/e/nutstore/2017pc"
-alias cpc="cd /cygdrive/e/nutstore/2017pc"
-alias cdgit="cd /cygdrive/e/nutstore/2017pc/git/"
-alias ocdoc="open /cygdrive/e/nutstore/2017pc/csr/doc"
-alias cdchrome="cd /cygdrive/e/chrome_down"
-alias ochrome="open /cygdrive/e/chrome_down"
-alias gfunc="vim ~/.func"
-alias sfunc="source ~/.func"
-#---------------------auto add alias ------------------------
-alias ogit='open  /cygdrive/e/nutstore/2017pc/git' #2018.03.31,23:26
-alias cdex='cd  /cygdrive/e/nutstore/exchange' #2018.03.31,23:45
+alias pytest="pytest --color=yes"
+# git rebase -i HEAD~2
+alias antlr4="java org.antlr.v4.Tool"
+alias grun="java org.antlr.v4.gui.TestRig"
+# alias javac='cyg-wrapper.sh "C:/Program\ Files/Java/jdk-10.0.2/bin/javac.exe" --fork=1'
+alias javac="C:/Program\ Files/Java/jdk-10.0.2/bin/javac.exe"
+# alias javac="/cydrive/c/Program\ Files/Java/jdk-10.0.2/javac.exe"
+alias proxy_on='reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f'
+alias proxy_off='reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 0 /f'
+alias pon=proxy_on 
+alias poff=proxy_off 
+alias pypy="/cygdrive/d/Program/pypy3-v5.10.1-win32/pypy3.exe"
+alias pypy2="/cygdrive/d/Program/pypy2-v6.0.0-win32/pypy.exe"
+alias pypy3=pypy
+alias pypip="/cygdrive/d/Program/pypy3-v5.10.1-win32/bin/pip3"
+alias h=history
+alias showc="echo '| iconv -f GBK -t UTF8'"
+alias g2u="iconv -f GBK -t UTF8"
+alias ipconfig="ipconfig | iconv -f GBK -t UTF8"
+#================auto add alias=====================
+alias cdregip="cd /cygdrive/d/Git/IP/EDAtools/regif"
+alias cdpc="cd /cygdrive/E/nutstore/2017pc/"
+alias cdex="cd /cygdrive/E/nutstore/exchange/"
+alias cdw="cd /cygdrive/E/nutstore/2017pc/lab/wcdma"
+alias cdreg="cd /cygdrive/E/nutstore/2017pc/regif"
+alias opc='open  /cygdrive/E/nutstore/2017pc' #2018.04.02,11:23
+alias ow='open  /cygdrive/E/nutstore/2017pc/lab/wcdma' #2018.04.02,11:24
+alias cdregif='cd  /cygdrive/E/nutstore/2017pc/lab/regif' #2018.04.02,11:35
+alias cdfic='cd  /cygdrive/d/pinecone2017/Verilog2001/AMBA' #2018.04.02,15:23
+alias ofic='open  /cygdrive/d/pinecone2017/Verilog2001/AMBA' #2018.04.02,15:23
+alias cdeda='cd  /cygdrive/d/Git/IP/EDAtools' #2018.04.02,17:22
+alias oeda='open  /cygdrive/d/Git/IP/EDAtools' #2018.04.02,17:22
+alias cdcsr='cd  /cygdrive/d/pinecone2017/CSR' #2018.04.08,10:05
+alias ocsr='open  /cygdrive/d/pinecone2017/CSR' #2018.04.08,10:05
+alias cdrtl='cd  /cygdrive/E/nutstore/2017pc/lab/csr/rtl' #2018.04.11,15:48
+alias cdderic='cd  /cygdrive/d/Git/IP/eMTC/reg\ Interface' #2018.04.17,16:32
+alias cdw='cd  /cygdrive/d/Git/IP/WCDMA/Reg\ interface' #2018.05.10,11:01
+alias cdwreg='cd  /cygdrive/d/Git/IP/WCDMA/Reg\ interface' #2018.05.10,11:01
+alias owreg='open  /cygdrive/d/Git/IP/WCDMA/Reg\ interface' #2018.05.17,14:42
+alias cdvv='cd  /home/Administrator/.vim/bundle/vvfly/ftplugin/verilog' #2018.05.25,21:36
+alias cdcase='cd  /cygdrive/e/case/srch' #2018.07.13,14:08
+alias cddoc='cd  /cygdrive/E/nutstore/2017pc/lab/csr/doc' #2018.07.19,14:23
+alias ocase='open  /cygdrive/e/case/srch' #2018.07.21,11:38
+alias ccase='cd  /cygdrive/e/case/srch' #2018.07.21,11:40
+alias owreg='open  /cygdrive/d/Git/IP/WCDMA/Reg\ interface' #2018.07.23,09:18
+alias owdoc='open  /cygdrive/d/Git/IP/WCDMA/Design\ SPEC' #2018.07.23,09:18
+alias clex='cd  /cygdrive/E/nutstore/2017pc/lab/vvfly/yacc' #2018.08.06,16:53
+alias cdh='cd  /cygdrive/E/nutstore/2017pc/lab/vvfly/lark/hello' #2018.08.07,14:40
+alias cdvtb='cd  /cygdrive/E/nutstore/2017pc/lab/emtc' #2018.08.17,16:15
+alias cdturbo='cd  /cygdrive/E/nutstore/2017pc/lab/turbo/py' #2018.08.18,10:19
