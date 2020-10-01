@@ -1,0 +1,36 @@
+[git]
+    recentrepo = /home/jijing/utils
+    recentrepo = /home/jijing/test
+[user]
+	email = goco.v@163.com
+	name = Jijing-mac
+[alias]
+    co = checkout
+    cm = commit -m 
+    st = status
+    cg = config --global
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset' --abbrev-commit    
+    ci = commit -m 
+    cam = commit -a -m
+	d = difftool
+    br = branch 
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[core]
+	excludesfile = /Users/jijing/.gitignore_global
+    editor = vim
+[merge]
+	tool = mvim -d 
+[diff]
+	tool = mvim -d 
+; [difftool "sourcetree"]
+[difftool "bc"]
+	; cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	; path = 
+[mergetool "bc"]
+	; cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	; trustExitCode = true
+[difftool]
+	prompt = false     
