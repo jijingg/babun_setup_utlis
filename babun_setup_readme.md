@@ -46,3 +46,4 @@ Now type gvim in terminal you can found the look as same as open gvim.exe in wid
 
   [1]: https://github.com/LucHermitte/Bash-scripts/blob/master/cyg-wrapper.sh
 
+![jijing](https://github-readme-stats.vercel.app/api?username=jijingg&show_icons=true&count_private=true&hide=prs&theme=default_repocard)
