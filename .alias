@@ -36,6 +36,7 @@ alias h=history
 alias showc="echo '| iconv -f GBK -t UTF8'"
 alias g2u="iconv -f GBK -t UTF8"
 alias ipconfig="ipconfig | iconv -f GBK -t UTF8"
+alias jopt="set JAVA_OPTS='-Xms64 -Xmx512'"
 #================auto add alias=====================
 alias cdregip="cd /cygdrive/d/Git/IP/EDAtools/regif"
 alias cdpc="cd /cygdrive/E/nutstore/2017pc/"
